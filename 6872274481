@@ -8871,33 +8871,33 @@ runFunction(function()
         ["Name"] = 'Packs',
         ["Function"] = function(val) 
             if val == '1' then
-                loadstring(game:HttpGet("https://raw.githubusercontent.com/e266cfd65ad46a67fc54b0efd38e40dd/Purple-packs/main/1", true))()
+                loadstring(game:HttpGet("https://raw.githubusercontent.com/Erchobg/Purple-packs/main/1", true))()
             elseif val == '2' then
-                loadstring(game:HttpGet("https://raw.githubusercontent.com/e266cfd65ad46a67fc54b0efd38e40dd/Purple-packs/main/2", true))()
+                loadstring(game:HttpGet("https://raw.githubusercontent.com/Erchobg/Purple-packs/main/2", true))()
             elseif val == '3' then
-                loadstring(game:HttpGet("https://raw.githubusercontent.com/e266cfd65ad46a67fc54b0efd38e40dd/Purple-packs/main/3", true))()
+                loadstring(game:HttpGet("https://raw.githubusercontent.com/Erchobg/Purple-packs/main/3", true))()
             elseif val == '4' then
-                loadstring(game:HttpGet("https://raw.githubusercontent.com/e266cfd65ad46a67fc54b0efd38e40dd/Purple-packs/main/4", true))()
+                loadstring(game:HttpGet("https://raw.githubusercontent.com/Erchobg/Purple-packs/main/4", true))()
             elseif val == '5' then
-                loadstring(game:HttpGet("https://raw.githubusercontent.com/e266cfd65ad46a67fc54b0efd38e40dd/Purple-packs/main/5", true))()
+                loadstring(game:HttpGet("https://raw.githubusercontent.com/Erchobg/Purple-packs/main/5", true))()
             elseif val == '6' then
-                loadstring(game:HttpGet("https://raw.githubusercontent.com/e266cfd65ad46a67fc54b0efd38e40dd/Purple-packs/main/6", true))()
+                loadstring(game:HttpGet("https://raw.githubusercontent.com/Erchobg/Purple-packs/main/6", true))()
             elseif val == '7' then
-                loadstring(game:HttpGet("https://raw.githubusercontent.com/e266cfd65ad46a67fc54b0efd38e40dd/Purple-packs/main/7", true))()
+                loadstring(game:HttpGet("https://raw.githubusercontent.com/Erchobg/Purple-packs/main/7", true))()
             elseif val == '8' then
-                loadstring(game:HttpGet("https://raw.githubusercontent.com/e266cfd65ad46a67fc54b0efd38e40dd/Purple-packs/main/8", true))()
+                loadstring(game:HttpGet("https://raw.githubusercontent.com/Erchobg/Purple-packs/main/8", true))()
             elseif val == '9' then
-                loadstring(game:HttpGet("https://raw.githubusercontent.com/e266cfd65ad46a67fc54b0efd38e40dd/Purple-packs/main/9", true))()
+                loadstring(game:HttpGet("https://raw.githubusercontent.com/Erchobg/Purple-packs/main/9", true))()
             elseif val == '10' then
-                loadstring(game:HttpGet("https://raw.githubusercontent.com/e266cfd65ad46a67fc54b0efd38e40dd/Purple-packs/main/10", true))()
+                loadstring(game:HttpGet("https://raw.githubusercontent.com/Erchobg/Purple-packs/main/10", true))()
             elseif val == '11' then
-                loadstring(game:HttpGet("https://raw.githubusercontent.com/e266cfd65ad46a67fc54b0efd38e40dd/Purple-packs/main/11", true))()
+                loadstring(game:HttpGet("https://raw.githubusercontent.com/Erchobg/Purple-packs/main/11", true))()
             elseif val == '12' then
-                loadstring(game:HttpGet("https://raw.githubusercontent.com/e266cfd65ad46a67fc54b0efd38e40dd/Purple-packs/main/12", true))()
+                loadstring(game:HttpGet("https://raw.githubusercontent.com/Erchobg/Purple-packs/main/12", true))()
             elseif val == '13' then
-                loadstring(game:HttpGet("https://raw.githubusercontent.com/e266cfd65ad46a67fc54b0efd38e40dd/Purple-packs/main/13", true))()
+                loadstring(game:HttpGet("https://raw.githubusercontent.com/Erchobg/Purple-packs/main/13", true))()
             elseif val == '14' then
-                loadstring(game:HttpGet("https://raw.githubusercontent.com/e266cfd65ad46a67fc54b0efd38e40dd/Purple-packs/main/14", true))()
+                loadstring(game:HttpGet("https://raw.githubusercontent.com/Erchobg/Purple-packs/main/14", true))()
             elseif val == '15' then
                 loadstring(game:HttpGet("https://raw.githubusercontent.com/SnoopyOwner/TexturePacks/main/Pack%231", true))()
             elseif val == '16' then
@@ -9431,7 +9431,7 @@ runFunction(function()
                    if isfile('vape/NewMainScript.lua') then 
                        loadfile('vape/NewMainScript.lua')()
                    else 
-                       loadstring(game:HttpGet("https://raw.githubusercontent.com/e266cfd65ad46a67fc54b0efd38e40dd/Purple-theme/main/Loader", true))()
+                       loadstring(game:HttpGet("https://raw.githubusercontent.com/Erchobg/Purple-theme/main/Loader", true))()
                    end 
                 end)
             end
@@ -9505,7 +9505,7 @@ runFunction(function()
 end)
 
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/e266cfd65ad46a67fc54b0efd38e40dd/Purple-extra/main/Extra%20681", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Erchobg/Purple-extra/main/Extra%20681", true))()
 
 local Players = game:GetService("Players")
 local TeleportService = game:GetService("TeleportService")
@@ -9522,7 +9522,7 @@ if isfile(v) then
     if content:find("2.2") then
         print("Version up to date")
     else
-        setclipboard("loadstring(game:HttpGet('https://raw.githubusercontent.com/e266cfd65ad46a67fc54b0efd38e40dd/Purple-theme/main/Installer', true))()")
+        setclipboard("loadstring(game:HttpGet('https://raw.githubusercontent.com/Erchobg/Purple-theme/main/Installer', true))()")
         wait(0.5)
         TeleportService:Teleport(Placeid, Players.LocalPlayer)
     end
